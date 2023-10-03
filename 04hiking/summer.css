@@ -1,0 +1,468 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header-wrapper{
+    background: url(../04hiking/hiking-img/background.png) no-repeat center/cover;
+    height: 100vh;
+}
+.head{
+    background-color: white;
+    height: 140px;
+}
+nav,
+ul{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+nav{
+    margin: 0 auto;
+    padding: 30px 0;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 17px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: #54524f;
+font-weight: 700;
+font-family: "Open Sans";
+padding: 7px 13px;
+border-radius: 6px;
+}
+input[type=search]{
+    outline: none;
+    padding: 7px;
+    width: 200px;
+    height: 40px;
+    background-color: #54524f;
+    border-radius: 20px;
+    opacity: 0.4px;
+}
+input[type=search]::placeholder{
+    color:white;
+}
+a.active,a:hover{
+    background: #f5ede3;
+    transition: .5s;
+}
+.its{
+    font-family: "Open Sans";
+}
+.its h1{
+    font-size: 92px;
+color: #deb37e;
+font-weight: 800;
+filter: drop-shadow(2.575px -4.286px 2.5px rgba(84,82,79,0.22));
+}
+.its h2{
+font-size: 25px;
+letter-spacing: 5px;
+color: #54524f;
+font-weight: 700;
+font-style: italic;
+padding: 12px;
+}
+.bars{
+    display: none;
+}
+button{
+    opacity: 0.902;
+width: 218px;
+height: 47px;
+border-radius: 21px;
+background-color: #ffffff;
+font-size: 25px;
+color: #776c64;
+font-weight: 800;
+font-family: "Open Sans";
+text-align: center;
+}
+.its p{
+font-size: 21px;
+letter-spacing: 1px;
+color: #54524f;
+font-weight: 400;
+font-style: italic;
+margin-top: 30px;
+}
+.second{
+    text-align: center;
+    font-family: "Open Sans";
+}
+.second h1{
+    font-size: 63px;
+text-transform: uppercase;
+color: #e2a355;
+font-weight: 800;
+margin-top: 100px;
+}
+.second p{
+height: 210px;
+font-size: 27px;
+color: #7f7770;
+font-weight: 400;
+}
+.btn{
+    text-align: center;
+}
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.h{
+    background-image: linear-gradient(0deg, rgba(103, 71, 71, 0.819) 0%, rgba(91, 86, 72, 0.797) 100%);
+    height: 150px;
+}
+.h{
+  color: #ffffff;
+  font-family: "Open Sans"; 
+}
+.h h1{
+    font-size: 29px;
+    font-weight: 700;
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84,82,79,0.22));
+}
+.h p{
+    font-size: 23px;
+font-weight: 400;
+}
+.btn button{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.third{
+    margin-top: 100px;
+    display: flex;
+    background-image: linear-gradient(0deg, rgba(103, 71, 71, 0.819) 0%, rgba(91, 86, 72, 0.797) 100%);
+}
+.discount{
+    flex-basis: 50%;
+}
+.discount img{
+width: 100%;
+}
+.w{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Open Sans";
+}
+.w h1{
+    font-size: 58px;
+font-weight: 700;
+margin-top: 40px;
+}
+.w p{
+font-size: 29px;
+font-weight: 400;
+margin-top: 40px;
+}
+.butt button{
+    background-image: linear-gradient(0deg, rgba(52,52,52,0.7019607843137254) 0%, rgba(67,64,55,0.47058823529411764) 100%);
+    color: aliceblue;
+    letter-spacing: 2px;
+}
+.buy{
+    background-image: linear-gradient(0deg, rgba(165, 177, 106, 0.784) 0%, rgba(115, 182, 178, 0.575) 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pic{
+    flex-basis: 50%;
+}
+.pic img{
+        height: 600px;
+        width: 100%;
+}
+.forth{
+    background-image: linear-gradient(0deg, rgba(44, 83, 46, 0.702) 0%, rgba(51, 59, 102, 0.471) 100%);
+    width: 100%;
+    height: 120vh;
+    position: relative;
+    overflow: hidden;
+}
+ .img-1{
+    position: absolute;
+     top: 0;
+    transform: rotate(180deg) translateX(50px);
+    width: 110%;
+    z-index: 50;
+}
+ .img-2{
+    position: absolute;
+    transform: translateX(-50px);
+    bottom: 0;
+    left: 0;
+    width: 110%;
+}
+.mount{
+    position: relative;
+    text-align: center;
+    padding-top:12% ;
+    color: #ffffff;
+    font-family: "Open Sans";
+}
+.mount h1{
+    font-size: 58px;
+font-weight: 600;
+padding-top: 80px;
+}
+.mount p{
+font-size: 29px;
+font-weight: 400;
+padding-top: 60px;
+}
+.explor{
+    background: url(../04hiking/hiking-img/back2.png)no-repeat center/cover;
+    height: 100vh;
+}
+.the{
+    font-size: 50px;
+    font-weight: 800;
+    font-style: italic;
+    font-family: "Open Sans";
+    text-align: right;
+    filter: drop-shadow(2.575px -4.286px 2.5px rgba(84,82,79,0.36));
+    padding-top: 210px;
+}
+.the h1{
+    color: #deb37e;  
+}
+.the h2{
+color: #54524f;
+}
+.lorem{
+    height: 100vh;
+}
+.is2{
+    padding-top: 200px;
+    font-family: "Open Sans";
+    padding-top: 170px;
+}
+.is2 h1{
+    font-size: 33px;
+line-height: 33px;
+color: #deb37e;
+}
+.is2{
+    font-size: 19px;
+    line-height: 25px;
+    color: #333d42;
+}
+.ispum{
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+}
+.se h1{
+    font-size: 100px;
+    color: #3f3f3f;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 80px;
+}
+.se h2{
+font-size: 25px;
+color: #3f3f3f;
+font-family: "Open Sans";
+text-align: center;
+}
+.se h4{
+    font-size: 21px;
+color: #3f3f3f;
+font-weight: 700;
+font-family: "Open Sans";
+text-align: center;
+padding-top: 60px;
+}
+.title{
+height: 796px;
+background-color: #deb37e;
+overflow: hidden;
+}
+.here h1{
+    font-size: 75px;
+color: #ffffff;
+font-weight: 700;
+font-family: "Open Sans";
+text-align: center;
+padding-top: 200px;
+}
+.here p{
+font-size: 30px;
+color: #54524f;
+font-weight: 400;
+font-family: "Open Sans";
+text-align: center;
+}
+.click input{
+    padding: 15px 60px;
+    margin: 80px 0px 0px 500px;
+    border-radius: 20px;
+    border: none;
+}
+.click button{
+    background-color: black;
+    border-radius: 17px;
+    color: #ffffff;
+    position: relative;
+    right: 50px;
+    top: 3px;
+}
+.last{
+    background-image: linear-gradient(0deg, rgba(39, 20, 58, 0.702) 0%, rgba(69, 30, 52, 0.471) 100%); 
+    height: 80vh;  
+}
+.part2{
+    padding-top: 100px;
+}
+i{
+    padding: 20px 0px 0px 20px;
+    color: #ffffff;
+}
+.final{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.part2 h1{
+    font-size: 32px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat"; 
+}
+.part2 p{
+    font-size: 24px;
+line-height: 42px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+}
+@media screen and (max-width:576px){
+    nav ul li{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+    input[type=search]{
+        display: none;   
+}
+.its h1{
+    font-size: 46px;
+filter: drop-shadow(2.575px -4.286px 2.5px rgba(84,82,79,0.22));
+margin: 28px 2px;
+}
+.its h2{
+font-size: 25px;
+padding: 7px;
+margin: 8px 2px;
+}
+.its p{
+    font-size: 17px;
+    }
+    .second p{
+    font-size: 17px;
+    margin-top: 20px;
+    }
+    .third{
+        display: block;
+    }
+    .buy{
+    flex-direction: column-reverse;
+    }
+    .w p{
+        font-size: 18px;
+        margin-top: 10px;
+        text-align: center;
+        letter-spacing: 3px;
+        }
+        .w h1{
+            font-size: 23px;
+            margin-top: 10px;
+        }
+        .butt button{
+            margin-top: 20px;
+        }
+        .pic img{
+            width: 100%;
+    }
+    .the h1{
+        font-size: 40px;
+    }
+    .the h2{
+        font-size: 30px;
+    }
+    .ispum{
+       display: block;
+    }
+    .is2{
+        padding-top: 30px;
+    }
+    .se h1{
+        text-align: center;
+        padding-top: 10px;
+        font-size: 80px;
+    }
+    .se h2{
+        font-size: 20px;
+        text-align: center;
+        }
+        .se h4{
+            font-size: 18px;
+        text-align: center;
+        padding-top: 10px;
+        }
+        .here h1{
+            font-size: 55px;
+        text-align: center;
+        padding-top: 100px;
+        }
+        .here p{
+            font-size: 20px;
+            text-align: center;
+            padding-top: 20px;
+            }
+            .click input{
+                padding: 12px 30px;
+                margin: 40px 0px 0px 100px;
+                border-radius: 20px;
+                border: none;
+                margin-top: 100px;
+            }
+            .click button{
+                background-color: black;
+                border-radius: 17px;
+                color: #ffffff;
+                position: relative;
+                right: 50px;
+                top: 3px;
+                height: 38px;
+            }
+            .title{
+                height: 500px;
+                background-color: #deb37e;
+                overflow: hidden;
+                }
+                .part2 h1{
+                    font-size: 25px;
+                }
+                .part2 p{
+                    font-size: 12px;
+                line-height: 30px;
+                }
+                .last{
+                    height: 60vh;  
+                }
+}
