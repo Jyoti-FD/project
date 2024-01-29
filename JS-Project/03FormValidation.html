@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normal Form Validation </title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            color: black;
+            font-size: 20px;
+        }
+        .nun{  
+        background:  linear-gradient(to top right, rgb(233, 234, 170), rgba(169, 146, 214, 0.703));
+           margin: 50px 600px;
+            padding: 10px 10px 10px 10px;
+            border: 2px solid black;
+            height: 300px;
+            width: 600px;
+        }
+        h1{
+            margin-bottom: 20px;
+            color: deeppink;
+            text-align: center;
+        }
+        button{
+            padding: 7px 30px 7px 30px;
+            border: none;
+            background-color: purple;
+            color: aliceblue;
+            cursor: pointer;
+            text-align: center;
+            margin-left: 160px;
+        }
+        .head{
+            margin-left: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nun">
+        <h1>FORM</h1>
+       <div class="head">
+        <label for="">Name :</label>
+        <input type="text" name="first" id="first" onblur="handleValidation(this, 'error1', 'Name')"> <span id="error1"></span><br><br>
+        <label for="">Password :</label>
+        <input type="password" name="second" id="second" onblur="handleValidation(this, 'error2', 'Password')"> <span id="error2"></span><br><br>
+        <label for="">E-Mail :</label>
+        <input type="email" name="third" id="third" onblur="handleValidation(this, 'error3', 'Email')"> <span id="error3"></span><br><br>
+        <label for="">Phone No. :</label>
+        <input type="tel" name="fourth" id="fourth" onblur="handleValidation(this, 'error4', 'Mobile')"> <span id="error4"></span> <br> <br>
+       </div>
+    <button>SUBMIT</button>
+    </div>
+
+    <script>
+    function handleValidation(jyoti, tanvi, sachin) {
+        if (jyoti.value == "") {
+            document.getElementById(tanvi).innerText = "This field is required" + ' ' +  sachin
+            document.getElementById(tanvi).style.color = "red"
+        }
+        else{
+            document.getElementById(ravi).innerText = ""
+        }
+
+    }
+    </script>
+</body>
+</html>
